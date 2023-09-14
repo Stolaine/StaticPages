@@ -21,10 +21,10 @@ const navbar = (
   </nav>
 );
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(navbar);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(navbar);
 
-document.getElementById("root").append(JSON.stringify(navbar));
+// document.getElementById("root").append(JSON.stringify(navbar));
 
 // ReactDOM.render(navbar, document.getElementById("root"));
 // ReactDOM.createRoot(document.getElementById("root")).render(navbar);
