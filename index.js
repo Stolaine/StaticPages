@@ -1,30 +1,31 @@
-/**
-Challenge: find out what happens if we try to append JSX
-to our div#root using .append() instead of ReactDOM
+/*
+Challenge: Starting from scratch, build and render the 
+HTML for our section project. Check the Google slide for 
+what you're trying to build.
 
-1. Create a sample page in JSX (≥ 4 elements) and save them in a variable
-2. Select the div with the ID of "root" and use `.append()` to append
-   your JSX
-3. See if you can guess what will show up in the browser before running
-   the code
-4. See if you can explain what actually shows up in the browser
- */
+We'll be adding styling to it later.
 
-const navbar = (
-  <nav>
-    <h1>Course</h1>
+Hints:
+* The React logo is a file in the project tree, so you can
+  access it by using `src="./react-logo.png" in your image
+  element
+* You can also set the `width` attribute of the image element
+  just like in HTML. In the slide, I have it set to 40px
+*/
+
+const page = (
+  <div>
+    <img src="./react-logo.png" width="50px" />
+    <h1>Fun facts about react</h1>
     <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally create by Jordan Walke</li>
+      <li>Has well over 100K stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
-  </nav>
+  </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(navbar);
-
-// document.getElementById("root").append(JSON.stringify(navbar));
-
-// ReactDOM.render(navbar, document.getElementById("root"));
-// ReactDOM.createRoot(document.getElementById("root")).render(navbar);
+root.render(page);
