@@ -1,5 +1,5 @@
 import reactLogo from "./../../assets/react-logo.png";
-function Header() {
+function PageHeader() {
   return (
     <header>
       <nav className="nav">
@@ -14,4 +14,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default PageHeader;

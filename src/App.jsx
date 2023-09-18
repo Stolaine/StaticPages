@@ -1,14 +1,14 @@
 import "./App.css";
-import Footer from "./components/footer/footer";
-import Header from "./components/header/Header";
+import PageFooter from "./components/footer/PageFooter";
+import PageHeader from "./components/header/PageHeader";
 import ReactInfo from "./components/reactInfo/ReactInfo";
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      <PageHeader />
       <ReactInfo />
-      <Footer />
+      <PageFooter />
     </div>
   );
 }

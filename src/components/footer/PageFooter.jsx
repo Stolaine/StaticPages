@@ -1,4 +1,4 @@
-function Footer() {
+function PageFooter() {
   return (
     <footer>
       <small>© 2023 Stolaine development. All rights reserved.</small>
@@ -6,4 +6,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default PageFooter;
