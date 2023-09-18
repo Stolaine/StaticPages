@@ -1,6 +1,6 @@
 import "./App.css";
-import PageFooter from "./components/footer/PageFooter";
-import PageHeader from "./components/header/PageHeader";
+import PageFooter from "./components/pageFooter/PageFooter";
+import PageHeader from "./components/pageHeader/PageHeader";
 import ReactInfo from "./components/reactInfo/ReactInfo";
 
 function App() {
