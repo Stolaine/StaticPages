@@ -1,0 +1,43 @@
+.root-canvas {
+  display: flex;
+  background-color: #d3d3d3;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+.square.left {
+  transform: rotate(45deg);
+  background-color: #ff00ff;
+}
+
+.square.right {
+  transform: rotate(45deg);
+}
+
+.square-wrapper {
+  height: fit-content;
+  width: max-content;
+}
+
+.popup-canvas {
+  background-color: #dbedf4;
+  height: 40%;
+  width: 40%;
+  border-radius: 10px;
+  transition: box-shadow 0.3s, width 0.3s, height 0.3s;
+}
+
+.popup-canvas:hover {
+  box-shadow: 0 0 11px #1e1e1d;
+  height: 41%;
+  width: 41%;
+}

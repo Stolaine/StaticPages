@@ -1,14 +1,10 @@
 import "./App.css";
-import PageFooter from "./components/pageFooter/PageFooter";
-import PageHeader from "./components/pageHeader/PageHeader";
-import ReactInfo from "./components/reactInfo/ReactInfo";
+import NavigationArt from "./components/playcss/NavigationArt";
 
 function App() {
   return (
-    <div>
-      <PageHeader />
-      <ReactInfo />
-      <PageFooter />
+    <div className="app-root">
+      <NavigationArt />
     </div>
   );
 }

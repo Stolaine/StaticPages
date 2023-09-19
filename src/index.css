@@ -67,3 +67,22 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.global-body {
+  margin: 0px;
+}
+
+.debug {
+  border: 3px solid red;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
